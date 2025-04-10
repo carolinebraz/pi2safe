@@ -3,13 +3,15 @@ from machine import Pin
 from keypad import get_key
 from servo import SmartLock
 from lcd_display import lcd, wait_screen
+from umqtt import MQTTClient
 
 class SecurityManager:
     PIN_FILE = "pin.txt"
 
-    def __init__(self):
+    def __init__(self, client: MQTTClient):
+        self.client = client
         self.led = Pin(15, Pin.OUT)
-        self.lock = SmartLock()
+        self.lock = SmartLock(client)
 
     def set_code(self, pin):
         with open(self.PIN_FILE, "w") as f:
@@ -54,4 +56,5 @@ class SecurityManager:
             self.led.on()
             utime.sleep(0.5)
             self.led.off()
+            self.client.publish("pi2safe/status", "ACESSO_NEGADO")
             return False
