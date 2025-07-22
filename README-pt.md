@@ -13,6 +13,7 @@ Pensado para ser 100% reproduzível sem necessidade de investimentos em hardware
 • [Requisitos](#requisitos-warning)  
 • [Tecnologias](#tecnologias-computer)  
 • [Executando o projeto](#executando-o-projeto-arrow_forward)  
+• [Deploy](#deploy-rocket)  
 • [Licença](#licença-lock)
 
 ---
@@ -35,6 +36,8 @@ Pensado para ser 100% reproduzível sem necessidade de investimentos em hardware
 Boas vindas | Configurar senha | Desbloqueado | Bloqueado | Acesso negado  
 :---:|:---:|:---:|:---:|:---:  
 <img src="assets/welcome.png" width="200"> | <img src="assets/setup.png" width="200"> | <img src="assets/unlocked.png" width="200"> | <img src="assets/locked.png" width="200"> | <img src="assets/access_denied.png" width="200">  
+
+Para mais detalhes, acesse: [Pi2Safe](https://wokwi.com/projects/437135539858937857)
 
 ---
 
@@ -92,6 +95,14 @@ git clone https://github.com/carolinebraz/pi2safe.git
 6. Se estiver tudo certo até aqui o sistema realizará a conexão e, em seguida, exibirá a tela para configurar senha
 
 7. Agora é só digitar uma senha utilizando o teclado matricial e testar o funcionamento da fechadura :smiley:
+
+---
+
+### Deploy :rocket:
+
+Este projeto encontra-se temporariamente disponível de forma gratuita no Wokwi 
+
+- [Pi2Safe](https://wokwi.com/projects/437135539858937857) :closed_lock_with_key:
 
 ---
 

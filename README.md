@@ -1,6 +1,6 @@
 <h5 align="right">Este arquivo também está disponível em <a href=https://github.com/carolinebraz/pi2safe/blob/main/README-pt.md> Português </a> 🇧🇷</h5>
 
-# <p align="center"> Pi2 Safe 🔐 </p>
+# <p align="center"> Pi2Safe 🔐 </p>
 
 A **virtual smart lock prototype** built using `Raspberry Pi Pico W` and `MicroPython`, developed as part of a study on key vulnerabilities in IoT systems for smart buildings. To test the effectiveness of protective measures, the device includes SHA-256 encryption and progressive blocking against repeated unauthorized access attempts.
 
@@ -11,6 +11,7 @@ The prototype was designed to be fully reproducible without requiring any physic
 • [Requirements](#requirements-warning)  
 • [Technologies](#technologies-computer)  
 • [Run](#run-arrow_forward)  
+• [Deploy](#deploy-rocket)  
 • [License](#license-lock)
 
 ---
@@ -33,6 +34,8 @@ The prototype was designed to be fully reproducible without requiring any physic
 Welcome | Set password | Unlocked | Locked | Access denied
 :---:|:---:|:---:|:---:|:---: 
 <img src="assets/welcome.png" width="200"> | <img src="assets/setup.png" width="200"> | <img src="assets/unlocked.png" width="200"> | <img src="assets/locked.png" width="200"> | <img src="assets/access_denied.png" width="200">
+
+For more details, visit: [Pi2Safe](https://wokwi.com/projects/437135539858937857)
 
 ---
 
@@ -89,6 +92,14 @@ git clone https://github.com/carolinebraz/pi2safe.git
 6. If successful, the system will connect and prompt you to set a password
 
 7. You can now enter a password using the keypad and test the smart lock system :smiley:
+
+---
+
+### Deploy :rocket:
+
+This project is temporarily available for free on Wokwi:
+
+- [Pi2Safe](https://wokwi.com/projects/437135539858937857) :closed_lock_with_key:
 
 ---
 
